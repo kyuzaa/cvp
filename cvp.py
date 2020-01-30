@@ -4,7 +4,7 @@ from threading import Thread
 import time, traceback, sys, os, pafy, livejson
 
 watashi = "u5691625e5d4355b730fc3f8f9ebf9874"
-token = "EIN9P5jB8U9SBwArfC8a.u8aamfEd+YlzIWl0T3btAG.i3vLA5pis7kuq+jT7sBrbwgbX9zelpdudueZbcMLMNU="
+token = ""
 client = LINE(appType="IOSIPAD")
 myMid = client.profile.mid
 programStart = time.time()
